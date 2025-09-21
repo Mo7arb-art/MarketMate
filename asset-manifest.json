@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MarketMate/static/css/main.4aa25d63.css",
-    "main.js": "/MarketMate/static/js/main.1c70f961.js",
+    "main.js": "/MarketMate/static/js/main.c25a4d63.js",
     "index.html": "/MarketMate/index.html",
     "main.4aa25d63.css.map": "/MarketMate/static/css/main.4aa25d63.css.map",
-    "main.1c70f961.js.map": "/MarketMate/static/js/main.1c70f961.js.map"
+    "main.c25a4d63.js.map": "/MarketMate/static/js/main.c25a4d63.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa25d63.css",
-    "static/js/main.1c70f961.js"
+    "static/js/main.c25a4d63.js"
   ]
 }
