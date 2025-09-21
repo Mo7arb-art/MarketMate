@@ -1,0 +1,81 @@
+/* PRODUCT CARD */
+.product-card {
+  background: #eee5c2;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  flex: 1 1 250px; /* makes cards flexible in a grid */
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+/* IMAGE */
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* DESCRIPTION */
+.product-description {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* BUTTON */
+.buy-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
+
+/* --- RESPONSIVE GRID LAYOUT --- */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* --- BREAKPOINTS --- */
+@media (max-width: 768px) {
+  .product-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .product-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    padding: 0.75rem;
+  }
+  .product-description {
+    font-size: 0.9rem;
+  }
+  .product-image {
+    height: 160px;
+  }
+  .buy-button {
+    width: 100%; /* full width button on mobile */
+  }
+}

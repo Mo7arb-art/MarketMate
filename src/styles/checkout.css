@@ -1,0 +1,136 @@
+.checkout-page {
+  padding: 2rem;
+  background-color: #1b475d;
+  min-height: 100vh;
+  color: #eee5c2;
+}
+
+.checkout-page h2 {
+  font-size: 3rem;
+  color: #eee5c2;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.checkout-form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #eee5c2;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1b475d;
+}
+
+.checkout-summary {
+  margin-top: 2rem;
+  background-color: #fdf6e3;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.checkout-summary h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1b475d;
+}
+
+.checkout-item {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.checkout-total {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.checkout-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkout-actions button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.checkout-actions button:hover {
+  background-color: #45a049;
+}
+
+.checkout-actions button[type="button"] {
+  background-color: #2196f3;
+}
+
+.checkout-actions button[type="button"]:hover {
+  background-color: #1976d2;
+}
+
+.success-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #1b475d;
+  color: #eee5c2;
+}
+
+.success-screen h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.success-screen p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.success-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.success-button:hover {
+  background-color: #1976d2;
+}
